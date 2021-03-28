@@ -57,11 +57,13 @@
     </header>
     <main class="page-main">
       <section class="page-main__about about">
-        <h2 id="about__title">Обо мне</h2>
-        <p>Привет! Меня зовут Евгений. Я начинающий Frontend-разработчик. Ищу работу на должность
-          junior Frontend-разработчик/HTML-верстальщик.</p>
-        <p>Я прошел обучение в HTML Academy для смены сферы деятельности и готов развиваться в
-          данной отрасли. Планирую за 2 года дойти до Middle разработчика.</p>
+        <div class="container">
+          <h2 id="about__title">Обо мне</h2>
+          <p>Привет! Меня зовут Евгений. Я начинающий Frontend-разработчик. Ищу работу на должность
+            junior Frontend-разработчик/HTML-верстальщик.</p>
+          <p>Я прошел обучение в HTML Academy для смены сферы деятельности и готов развиваться в
+            данной отрасли. Планирую за 2 года дойти до Middle разработчика.</p>
+        </div>
       </section>
       <div class="container">
         <section class="page-main__skills skills">
@@ -196,6 +198,47 @@
           </ul>
         </section>
       </div>
+      <section class="page-main__portfolio portfolio">
+        <div class="container">
+          <h2>Портфолио</h2>
+          <ul class="portfolio__list">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <picture>
+                  <!--            <source type="image/webp" media="(max-width: 1023px)" srcset="img/photo-mobile@1x.webp 1x, img/photo-mobile@2x.webp 2x">-->
+                  <!--            <source type="image/webp" srcset="img/photo-desktop@1x.webp 1x, img/photo-desktop@2x.webp 2x">-->
+                  <source media="(max-width: 767px)" srcset="img/pink-mobile@1x.jpg 1x, img/pink-mobile@2x.jpg 2x">
+                  <source media="(max-width: 1023px)" srcset="img/pink-tablet@1x.jpg 1x, img/pink-tablet@2x.jpg 2x">
+                  <!-- 1х: 944px; 2x: 1888px -->
+                  <img src="img/pink-desktop@1x.jpg" srcset="img/pink-desktop@2x.jpg 2x" width="944" height="auto" alt="Pink">
+                </picture>
+              </a>
+              <a href="" class="portfolio__link-site"></a>
+              <a href="" class="portfolio__link-github"></a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link"></a>
+              <a href="" class="portfolio__link-site"></a>
+              <a href="" class="portfolio__link-github"></a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link"></a>
+              <a href="" class="portfolio__link-site"></a>
+              <a href="" class="portfolio__link-github"></a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link"></a>
+              <a href="" class="portfolio__link-site"></a>
+              <a href="" class="portfolio__link-github"></a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link"></a>
+              <a href="" class="portfolio__link-site"></a>
+              <a href="" class="portfolio__link-github"></a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer class="page-footer">
       <section class="page-footer__contacts contacts">

@@ -37,3 +37,10 @@
   border: none;
   background-color: transparent;
 }
+
+@media ($tablet-widths-max) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

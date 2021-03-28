@@ -1,3 +1,10 @@
 .container {
+  box-sizing: border-box;
   padding: 0 calc(40px + (252 - 40) * ((100vw - 1024px) / (1445 - 1024)));
+}
+
+@media ($tablet-widths-max) {
+  .container {
+    padding: 0 calc(20px + (60 - 20) * ((100vw - 375px) / (1023 - 375)));
+  }
 }
