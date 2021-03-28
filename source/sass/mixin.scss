@@ -1,0 +1,23 @@
+@mixin link {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: $text-additional-color;
+
+  &:hover {
+    color: $text-color;
+  }
+
+  &:active,
+  &:focus {
+    color: $text-color;
+    filter: drop-shadow(0 4px 4px rgba($text-color, 0.4));
+  }
+}
+
+@mixin title {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+}

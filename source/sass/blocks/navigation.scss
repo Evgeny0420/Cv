@@ -1,0 +1,13 @@
+.navigation__list {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 54px 0 31px;
+  border-bottom: 1px solid $text-additional-color;
+
+  a {
+    @include link;
+  }
+}

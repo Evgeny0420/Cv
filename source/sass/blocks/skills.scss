@@ -1,0 +1,35 @@
+.skills {
+  h2 {
+    @include title;
+    text-align: center;
+  }
+}
+
+.skills__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__item {
+  display: grid;
+  justify-items: center;
+  align-content: end;
+  width: 130px;
+  height: 160px;
+  margin: 30px 20px;
+
+  h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: $text-additional-color;
+    width: 120px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,11 @@
+.page-body {
+  min-height: 100%;
+  min-width: 375px;
+  background-color: $basic-color;
+  font-family: $font;
+  color: $text-color;
+
+  &--open-menu {
+    overflow-y: hidden;
+  }
+}
