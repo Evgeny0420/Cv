@@ -36,7 +36,7 @@
 
   &:hover {
     img {
-      transform: translateY(calc(-100% + 500px));
+      transform: translateY(calc(500px - 100%));
       transition: 3s;
     }
   }
