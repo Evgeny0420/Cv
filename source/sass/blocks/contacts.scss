@@ -36,6 +36,7 @@
     &:hover {
       svg {
         fill: $text-color;
+        transition: 1s;
       }
     }
 
@@ -44,6 +45,7 @@
       svg {
         fill: $text-color;
         filter: drop-shadow(0 4px 4px rgba($text-color, 0.4));
+        transition: 1s;
       }
     }
   }

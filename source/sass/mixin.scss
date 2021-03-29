@@ -7,12 +7,14 @@
 
   &:hover {
     color: $text-color;
+    transition: 1s;
   }
 
   &:active,
   &:focus {
     color: $text-color;
     filter: drop-shadow(0 4px 4px rgba($text-color, 0.4));
+    transition: 1s;
   }
 }
 
@@ -20,4 +22,9 @@
   font-weight: bold;
   font-size: 34px;
   line-height: 42px;
+}
+
+@mixin title-tab {
+  font-size: 47px;
+  line-height: 58px;
 }
