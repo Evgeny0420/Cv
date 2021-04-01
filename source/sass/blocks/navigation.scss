@@ -52,8 +52,8 @@
     justify-self: end;
     position: absolute;
     right: 0;
-    top: 54px;
-    width: 33px;
+    top: 21px;
+    width: 40px;
     height: 22px;
     background-color: transparent;
     border: none;
@@ -68,11 +68,11 @@
       position: absolute;
       top: 0;
       right: 0;
-      width: 33px;
-      height: 4px;
+      width: 40px;
+      height: 5px;
       border-radius: 1px;
       background-color: $text-color;
-      box-shadow: 0 6px 0 0 $text-color, 0 12px 0 0 $text-color;
+      box-shadow: 0 8px 0 0 $text-color, 0 16px 0 0 $text-color;
     }
 
     &--nojs {
