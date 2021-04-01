@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Резюме</title>
+    <link href="fonts/Gilroy-bold.woff" rel="preload" as="font" crossorigin="anonymous">
+    <link href="fonts/Gilroy-bold.woff2" rel="preload" as="font" crossorigin="anonymous">
+    <link href="fonts/Gilroy-medium.woff" rel="preload" as="font" crossorigin="anonymous">
+    <link href="fonts/Gilroy-medium.woff2" rel="preload" as="font" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body class="page-body">
+    <h1 class="visually-hidden">Резюме Карпова Евгения</h1>
+    <header class="page-header">
+      <div class="container">
+        <nav class="page-header__navigation navigation">
+          <ul class="navigation__list navigation__list--close navigation__list--nojs">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Главная</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#about__title" class="navigation__link">Обо мне</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#skills__title" class="navigation__link">Навыки</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#portfolio__title" class="navigation__link">Портфолио</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#contacts__title" class="navigation__link">Контакты</a>
+            </li>
+          </ul>
+          <button type="button" class="navigation__burger navigation__burger--nojs" aria-label="Open menu"></button>
+        </nav>
+        <section class="page-header__base base">
+          <div class="base__header">
+            <h2>Евгений Карпов</h2>
+            <p>Frontend-разработчик <br>29 лет, Москва</p>
+            <div class="base__lang">
+              <button class="base__ru-lang">Ru</button>
+              <button class="base__eng-lang">Eng</button>
+            </div>
+          </div>
+          <div class="base__photo">
+            <picture class="base__picture">
+              <source type="image/webp" media="(max-width: 1023px)" srcset="img/photo-mobile@1x.webp 1x, img/photo-mobile@2x.webp 2x">
+              <source type="image/webp" srcset="img/photo-desktop@1x.webp 1x, img/photo-desktop@2x.webp 2x">
+              <source media="(max-width: 1023px)" srcset="img/photo-mobile@1x.jpg 1x, img/photo-mobile@2x.jpg 2x">
+              <!-- 1х: 944px; 2x: 1888px -->
+              <img src="img/photo-desktop@1x.jpg" srcset="img/photo-desktop@2x.jpg 2x" width="944" height="387" alt="Евгений">
+            </picture>
+          </div>
+        </section>
+      </div>
+    </header>
+    <main class="page-main">
+      <section class="page-main__about about">
+        <div class="container">
+          <h2 id="about__title">Обо мне</h2>
+          <p>Привет! Меня зовут Евгений. Я начинающий Frontend-разработчик. Ищу работу на должность
+            junior Frontend-разработчик/HTML-верстальщик.</p>
+          <p>Я прошел обучение в HTML Academy для смены сферы деятельности и готов развиваться в
+            данной отрасли. Планирую за 2 года дойти до Middle разработчика.</p>
+        </div>
+      </section>
+      <div class="container">
+        <section class="page-main__skills skills">
+          <h2 id="skills__title">Навыки</h2>
+          <ul class="skills__list">
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-html"></use>
+              </svg>
+              <h3>HTML5</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-5-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="60px">
+                <use xlink:href="img/sprite.svg#icon-css3"></use>
+              </svg>
+              <h3>CSS3 (Grid, flexbox)</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-js"></use>
+              </svg>
+              <h3>JS</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-es6"></use>
+              </svg>
+              <h3>ES6</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="35px">
+                <use xlink:href="img/sprite.svg#icon-less"></use>
+              </svg>
+              <h3>Less</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="40px">
+                <use xlink:href="img/sprite.svg#icon-sass"></use>
+              </svg>
+              <h3>Sass</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="60px">
+                <use xlink:href="img/sprite.svg#icon-bem"></use>
+              </svg>
+              <h3>BEM</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-5-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-adaptive"></use>
+              </svg>
+              <h3>Адаптивная верстка</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-browser"></use>
+              </svg>
+              <h3>Кроссбраузерная верстка</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-pp"></use>
+              </svg>
+              <h3>Pixel Perfect</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-git"></use>
+              </svg>
+              <h3>Git</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-gulp"></use>
+              </svg>
+              <h3>Gulp</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-webpack"></use>
+              </svg>
+              <h3>Webpack</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-3-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-figma"></use>
+              </svg>
+              <h3>FIGMA</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+            <li class="skills__item">
+              <svg width="69px" height="69px">
+                <use xlink:href="img/sprite.svg#icon-photoshop"></use>
+              </svg>
+              <h3>Photoshop</h3>
+              <svg width="130px" height="22px">
+                <use xlink:href="img/sprite.svg#icon-4-stars"></use>
+              </svg>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <section class="page-main__portfolio portfolio">
+        <div class="container">
+          <h2 id="portfolio__title">Портфолио</h2>
+          <ul class="portfolio__list">
+            <li class="portfolio__item">
+              <div class="portfolio__link">
+                <picture>
+                  <source type="image/webp" media="(max-width: 767px)" srcset="img/travel-mobile@1x.webp 1x, img/travel-mobile@2x.webp 2x">
+                  <source type="image/webp" media="(max-width: 1023px)" srcset="img/travel-tablet@1x.webp 1x, img/travel-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/travel-desktop@1x.webp 1x, img/travel-desktop@2x.webp 2x">
+                  <source media="(max-width: 767px)" srcset="img/travel-mobile@1x.jpg 1x, img/travel-mobile@2x.jpg 2x">
+                  <source media="(max-width: 1023px)" srcset="img/travel-tablet@1x.jpg 1x, img/travel-tablet@2x.jpg 2x">
+                  <!-- 1х: 944px; 2x: 1888px -->
+                  <img src="img/travel-desktop@1x.jpg" srcset="img/travel-desktop@2x.jpg 2x" width="944" alt="Travel">
+                </picture>
+              </div>
+              <a href="#" class="portfolio__link-site">Перейти на сайт</a>
+              <a href="#" class="portfolio__link-github">Посмотреть в GitHub</a>
+            </li>
+            <li class="portfolio__item">
+              <div class="portfolio__link">
+                <picture>
+                  <source type="image/webp" media="(max-width: 767px)" srcset="img/pink-mobile@1x.webp 1x, img/pink-mobile@2x.webp 2x">
+                  <source type="image/webp" media="(max-width: 1023px)" srcset="img/pink-tablet@1x.webp 1x, img/pink-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/pink-desktop@1x.webp 1x, img/pink-desktop@2x.webp 2x">
+                  <source media="(max-width: 767px)" srcset="img/pink-mobile@1x.jpg 1x, img/pink-mobile@2x.jpg 2x">
+                  <source media="(max-width: 1023px)" srcset="img/pink-tablet@1x.jpg 1x, img/pink-tablet@2x.jpg 2x">
+                  <!-- 1х: 944px; 2x: 1888px -->
+                  <img src="img/pink-desktop@1x.jpg" srcset="img/pink-desktop@2x.jpg 2x" width="944" alt="Pink">
+                </picture>
+              </div>
+              <a href="pink/index.html" class="portfolio__link-site">Перейти на сайт</a>
+              <a href="https://github.com/Evgeny0420/1490261-pink-20" class="portfolio__link-github">Посмотреть в GitHub</a>
+            </li>
+            <li class="portfolio__item">
+              <div class="portfolio__link">
+                <picture>
+                  <source type="image/webp" media="(max-width: 767px)" srcset="img/bicycles-mobile@1x.webp 1x, img/bicycles-mobile@2x.webp 2x">
+                  <source type="image/webp" media="(max-width: 1023px)" srcset="img/bicycles-tablet@1x.webp 1x, img/bicycles-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/bicycles-desktop@1x.webp 1x, img/bicycles-desktop@2x.webp 2x">
+                  <source media="(max-width: 767px)" srcset="img/bicycles-mobile@1x.jpg 1x, img/bicycles-mobile@2x.jpg 2x">
+                  <source media="(max-width: 1023px)" srcset="img/bicycles-tablet@1x.jpg 1x, img/bicycles-tablet@2x.jpg 2x">
+                  <!-- 1х: 944px; 2x: 1888px -->
+                  <img src="img/bicycles-desktop@1x.jpg" srcset="img/bicycles-desktop@2x.jpg 2x" width="944" alt="Bycycles">
+                </picture>
+              </div>
+              <a href="bicycles/index.html" class="portfolio__link-site">Перейти на сайт</a>
+              <a href="https://github.com/Evgeny0420/bicycles" class="portfolio__link-github">Посмотреть в GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <section class="page-footer__contacts contacts">
+        <h2 id="contacts__title">Контакты</h2>
+        <a class="contacts__tel" href="tel:+79772695399">+7 (977) 269-53-99</a>
+        <a class="contacts__mail" href="mailto:evgeniy_karpov91@inbox.ru">evgeniy_karpov91@inbox.ru</a>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a href="https://vk.com/evgeny0420" class="contacts__social" aria-label="vkontakte">
+              <svg width="40px" height="40px" fill="#828282">
+                <use xlink:href="img/sprite.svg#icon-vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="https://www.instagram.com/evgeny20_04/" class="contacts__social" aria-label="instagram">
+              <svg width="40px" height="40px" fill="#828282">
+                <use xlink:href="img/sprite.svg#icon-inst"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="https://github.com/Evgeny0420" class="contacts__social" aria-label="github">
+              <svg width="40px" height="40px" fill="#828282">
+                <use xlink:href="img/sprite.svg#icon-github"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="skype:live:evgeniy_karpov91?call" class="contacts__social" aria-label="skype">
+              <svg width="40px" height="40px" fill="#828282">
+                <use xlink:href="img/sprite.svg#icon-skype"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
